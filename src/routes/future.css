@@ -1,0 +1,115 @@
+.futureContainer {
+  /* font-family: "Roboto", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 2rem; */
+  width: 100vw;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  margin-top: -2rem;
+
+}
+
+.futurePic{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.futureText{
+    color: white;
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    padding: 1rem;
+}
+
+.futureTitle{
+    width: 100%;
+    height: 10vh;
+    margin-top: 20vh;
+    font-size: 2.3rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    /* background-color: lightblue; */
+}
+
+.futureBody{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    font-weight: 300;
+    /* background-color: lightgreen; */
+}
+.futureGoalsBox{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 2rem;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 7rem;
+}
+.tech{
+    width: 100%;
+    height: 20vh;
+    /* background-color: lightblue; */
+    margin-top: -7rem;
+}
+.personal{
+    width: 100%;
+    height: 20vh;
+    /* background-color: lightgreen; */
+}
+.professional{
+    width: 100%;
+    height: 20vh;
+    /* background-color: lightsalmon; */
+}
+.longTerm{
+    width: 100%;
+    height: 20vh;
+    /* background-color: lightsalmon; */
+}
+/* .longTerm{
+    width: 100%;
+    height: 20vh;
+    background-color: lightyellow;
+} */
+
+/* .futureText{
+    margin-top: 50rem;
+    height: 300vh;
+    border: 2px solid blue;
+}
+
+.futureTitle{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.futureBody{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.futureGoalsBox{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.longTerm{
+    margin-bottom: 10rem;
+} */
+
+

@@ -1,0 +1,25 @@
+
+    .topbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.4s ease-in-out;
+        z-index: 999;
+      }
+      
+      .clear-bg {
+        background-color: transparent;
+      }
+      
+      .black-bg {
+        background-color: rgba(0, 0, 0, 0.651);
+      }
+      
+
+
+

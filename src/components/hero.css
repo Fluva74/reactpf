@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.heroContainer {
+  height: 100vh;
+  width: 100%;
+  padding: 10rem 2rem 2rem 2rem;
+  margin: 0;
+  color: white;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+
+#workLink {
+  opacity: 0;
+}
+
+.siteTitle {
+  font-size: 2.5rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+
+
+.subTitleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+
+.subTitleText {
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+
+
+/* .subTitleText {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5em;
+  white-space: nowrap;
+} */
+
+@media (min-width: 769px) {
+  .subTitleContainer {
+    margin-top: 10rem;
+  }
+
+  .subTitleText {
+    font-size: 1.3rem;
+  }
+
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .siteTitle {
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 100;
+  }
+}

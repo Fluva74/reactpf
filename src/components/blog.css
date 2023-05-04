@@ -1,0 +1,105 @@
+.blogContainer {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    margin-top: -5rem;
+    padding: 2rem;
+}
+
+.myThoughts{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: orangered;
+}
+
+img{
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.blogPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f500;
+    margin: 1rem auto;
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+.blogTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.readBlog{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    color: orangered;
+}
+
+.viewLink{
+    text-decoration: none;
+    color: rgb(97, 27, 27);
+}
+
+@media screen and (min-width: 768px) {
+    .blogContainer {
+       display: flex;
+         flex-direction: column;
+    }
+    .postContainer{
+        width: 75vw;
+        display: flex;
+         flex-direction: row; 
+    }
+    .blogPost{
+        height: 700px;
+        justify-content: flex-start; 
+        padding: 2rem;
+        transition: transform 0.4s ease-out;
+    }
+   .blogPost:hover{
+         transform: scale(1.05);
+         transition: transform 0.4s ease-in;
+    }
+     .blogTitle{
+          font-size: 2rem;
+     }
+     .readBlog{
+          font-size: 1.5rem;
+     }
+     .postTop{
+          width: 100%;
+          height: 40%;
+          margin-right: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+     .postBottom{
+          width: 75%;
+     }
+   }
+    .postBottom{
+        margin-top: 1rem;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .viewLink{
+        margin-top: 4rem;
+    }
