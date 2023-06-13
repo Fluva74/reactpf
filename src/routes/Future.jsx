@@ -34,7 +34,7 @@ function Future() {
             thanks for what was given to our family, but I'll do my best to try.
           </p>
         </div>
-        <div className="futureGoalsBox">
+        {/* <div className="futureGoalsBox">
           <div className="tech">
             <div className="goalLeft">
               <img
@@ -74,8 +74,8 @@ function Future() {
               />
             </div>
             <div className="goalRight">Right</div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
       <Footer />
     </div>

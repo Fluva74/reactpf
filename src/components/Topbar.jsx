@@ -23,7 +23,7 @@ function Topbar() {
   return (
     <div className={`topbar ${isScrolled ? "black-bg" : "clear-bg"}`}>
       <Logo />
-      <Hamburger />
+      {/* <Hamburger /> */}
     </div>
   );
 }
